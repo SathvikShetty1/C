@@ -7,7 +7,7 @@ class GoogleFormAutomation:
         self.driver = webdriver.Chrome()
 
     def fill_form(self):
-        self.driver.get("https://bit.ly/sath794")
+        self.driver.get("https://forms.gle/mSV8WEUWiBEFA4J88")
         time.sleep(2)
 
         # Fill the Name field
